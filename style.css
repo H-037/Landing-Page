@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    flex: 1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.info {
+    flex: 1;
+}
+
+.quote {
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.sign {
+    flex: 1;
+}
+
+.footer {
+    height: 40px;
+    background-color: #1F2937;
+}
