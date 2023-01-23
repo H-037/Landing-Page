@@ -180,3 +180,10 @@ img {
     font-size: larger;
 }
 
+/*copyright*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
