@@ -75,8 +75,8 @@ body {
     display: flex;
     flex-grow: 0;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .headline {
@@ -135,4 +135,21 @@ img.himg {
 img {
     width: 200px;
     height: 200px;
+}
+
+/*quote*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin: 15px 0px;
+}
+
+.qtext {
+    font-size: x-large;
+    font-weight: 900;
 }
