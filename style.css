@@ -196,3 +196,21 @@ img {
     align-items: center;
     color: white;
 }
+
+/*solving stacking problem*/
+@media(max-width: 768px) {
+    .hcontent {
+        display: block;
+        text-align: center;
+    }
+
+    .boxes {
+        display: block;
+        text-align: center;
+    }
+
+    .quote {
+        display: block;
+        text-align: center;
+    }
+}
