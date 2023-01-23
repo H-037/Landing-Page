@@ -144,8 +144,6 @@ img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-left: 400px;
-    padding-right: 400px;
     margin: 15px 0px;
 }
 
@@ -153,3 +151,32 @@ img {
     font-size: x-large;
     font-weight: 900;
 }
+
+/*signup*/
+.sign {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.blue {
+    background-color: #3580e9;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.button2 {
+    border-color: white;
+}
+
+.action {
+    font-weight: 700;
+    font-size: larger;
+}
+
